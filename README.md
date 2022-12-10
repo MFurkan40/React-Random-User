@@ -2,15 +2,14 @@
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [Description](#description)
-  - [Project Skeleton](#project-skeleton)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-
-
+- [Random User App](#random-user-app)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Description](#description)
+    - [Project Skeleton](#project-skeleton)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+    - [Built with](#built-with)
 
 ## Overview
 
@@ -23,12 +22,12 @@ The project creates an information card by retrieving user information from the 
 ```
 random-user-app (folder)
        public(folder)
-           |----index.html 
+           |----index.html
        src (folder)
-           |----app.js 
+           |----app.js
            |----app.css
            |----index.js
-           |----index.css 
+           |----index.css
            components (folder)
                 |----UserCard.css
                 |----UserCard.jsx
@@ -44,11 +43,9 @@ random-user-app (folder)
 <a href="https://sezginakgul.github.io/random-user-app/"><img src="random-user.gif" alt="screenshot" width="100%"></a>
 </p>
 
-
 ### Links
 
-- Live: [Live Website](https://sezginakgul.github.io/random-user-app/)
-
+- Live: [Website Link](https://mfurkan40.github.io/React-Random-User)
 
 ### Built with
 
@@ -56,4 +53,3 @@ random-user-app (folder)
 - JAVASCRİPT
 - HTML5
 - CSS3
-
