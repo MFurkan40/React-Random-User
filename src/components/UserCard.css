@@ -1,0 +1,91 @@
+.card-container {
+  width: 400px;
+  height: 475px;
+  margin: 2rem auto;
+  background: linear-gradient(360deg, #365498 15%, #182848 85%);
+  color: white;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.card {
+  margin: 1rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.card p {
+  margin-left: 2rem;
+}
+
+button {
+  border: none;
+  background: linear-gradient(180deg, #365498 15%, #182848 85%);
+  color: wheat;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.name img {
+  border-radius: 50%;
+}
+
+.desc div {
+  margin-bottom: 1rem;
+}
+
+/* RESPONSİVE */
+
+@media screen and (max-width: 450px) {
+  .card-container {
+    width: 300px;
+    height: 565px;
+  }
+
+  .card {
+    margin: 1rem 2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .name {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .name img {
+    width: 200px;
+    overflow-wrap: break-word;
+    margin: auto;
+  }
+
+  .name p {
+    margin: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .display img {
+    margin-left: -25px;
+    margin-right: -20px;
+  }
+
+  #email p {
+    width: 200px;
+    overflow-wrap: break-word;
+  }
+
+  button {
+    margin-top: -0.9rem;
+    width: 50%;
+  }
+}
