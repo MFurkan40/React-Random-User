@@ -40,7 +40,7 @@ random-user-app (folder)
 ### Screenshot
 
 <p align="center">
-<a href="https://sezginakgul.github.io/random-user-app/"><img src="random-user.gif" alt="screenshot" width="100%"></a>
+<a href="https://mfurkan40.github.io/React-Random-User"><img src="random-user.gif" alt="screenshot" width="100%"></a>
 </p>
 
 ### Links
